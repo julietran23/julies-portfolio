@@ -51,63 +51,66 @@ function Home() {
           </div>
 
           <div className="project-grid">
-            {/* FEATURED PROJECT */}
             <a
                 href="/work/media-metadata"
                 className="project-card featured project-link"
             >
-              <div className="project-placeholder">
-                Media Metadata Screenshot
-              </div>
+                <div className="project-placeholder">
+                Application Screenshot Coming Soon
+                </div>
 
-              <div className="project-info">
-                <p className="project-number">01 / DEVELOPMENT + UI/UX</p>
+                <div className="project-info">
+                <p className="project-number">
+                    01 / FULL-STACK DEVELOPMENT + UI/UX
+                </p>
 
                 <h3>Digital Asset Management Application</h3>
 
                 <p>
-                  A full-stack application for indexing, searching, tagging,
-                  filtering, and retrieving video files across local and
-                  centralized storage.
+                    An internally deployed media-management platform that indexes
+                    centralized video storage and makes assets searchable through
+                    metadata, tags, thumbnails, filters, and timestamp annotations.
                 </p>
 
                 <div className="tags">
-                  <span>Full Stack</span>
-                  <span>UI/UX</span>
-                  <span>TypeScript</span>
-                  <span>PostgreSQL</span>
-                  <span>Docker</span>
+                    <span>React</span>
+                    <span>TypeScript</span>
+                    <span>PostgreSQL</span>
+                    <span>Docker</span>
+                    <span>FFmpeg</span>
                 </div>
-              </div>
+                </div>
             </a>
 
-            {/* VIDEO PROJECT */}
             <a
-              href="/work/marketing-video"
-              className="project-card project-link"
+                href="/work/media-storage-architecture"
+                className="project-card project-link"
             >
-              <div className="project-placeholder">
-                Marketing Video Preview
-              </div>
+                <div className="project-placeholder">
+                Architecture Diagram
+                </div>
 
-              <div className="project-info">
-                <p className="project-number">02 / VIDEO + MARKETING</p>
+                <div className="project-info">
+                <p className="project-number">
+                    02 / IT + SYSTEMS DESIGN
+                </p>
 
-                <h3>Company Marketing Video</h3>
+                <h3>Media Storage Architecture & Taxonomy</h3>
 
                 <p>
-                  A recruiting and marketing video developed through planning,
-                  filming, editing, stakeholder collaboration, and final
-                  delivery.
+                    Redesigned a fragmented media-storage workflow into a centralized
+                    shared asset hub with standardized taxonomy, active storage, archival
+                    storage, and a scalable migration path.
                 </p>
 
                 <div className="tags">
-                  <span>Video Production</span>
-                  <span>Editing</span>
-                  <span>Marketing</span>
+                    <span>Systems Design</span>
+                    <span>Information Architecture</span>
+                    <span>File Management</span>
                 </div>
-              </div>
+                </div>
             </a>
+
 
             {/* PATRIOTHACKS */}
             <a
