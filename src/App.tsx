@@ -1,48 +1,37 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Home from "./pages/Home";
+import MediaStorageArchitecture from "./pages/projects/StorageArchitecture";
+import ScrollToTop from "./components/ScrollToTop";
+
 import "./App.css";
+import DAM from "./pages/projects/DAM";
+import MultimediaInternship from "./pages/projects/MultimediaInternship";
 
 function App() {
   return (
-    <div className="portfolio">
-      <header className="navbar">
-        <a href="/" className="logo">
-          JULIE TRAN
-        </a>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-        <nav>
-          <a href="#work">Work</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-          <a href="#resume">Resume</a>
-        </nav>
-      </header>
+        <Route
+          path="/work/Digital-Asset-Management-Application"
+          element={<DAM />}
+        />
 
-      <main>
-        <section className="hero">
-          <p className="eyebrow">CREATIVE TECHNOLOGIST & DESIGNER</p>
+        <Route
+          path="/work/media-storage-architecture"
+          element={<MediaStorageArchitecture />}
+        />
 
-          <h1>
-            I build at the intersection of
-            <span> technology, design & media.</span>
-          </h1>
+        <Route 
+          path="/work/multimedia-internship" 
+          element={<MultimediaInternship />} />
 
-          <p className="description">
-            I'm Julie Tran, an Information Technology student creating digital
-            experiences through web development, UI/UX, graphic design, video
-            production, and marketing.
-          </p>
+      </Routes>
 
-          <div className="hero-buttons">
-            <a href="#work" className="primary-button">
-              View My Work
-            </a>
-
-            <a href="#about" className="secondary-button">
-              About Me
-            </a>
-          </div>
-        </section>
-      </main>
-    </div>
+      <ScrollToTop />
+    </BrowserRouter>
   );
 }
 
