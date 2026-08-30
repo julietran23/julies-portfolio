@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
-import ProjectPage from "./pages/ProjectPage";
-import MediaMetadata from "./pages/projects/DAM";
 import MediaStorageArchitecture from "./pages/projects/StorageArchitecture";
 import ScrollToTop from "./components/ScrollToTop";
 
 import "./App.css";
+import DAM from "./pages/projects/DAM";
+import MultimediaInternship from "./pages/projects/MultimediaInternship";
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
         <Route path="/" element={<Home />} />
 
         <Route
-          path="/work/media-metadata"
-          element={<MediaMetadata />}
+          path="/work/Digital-Asset-Management-Application"
+          element={<DAM />}
         />
 
         <Route
@@ -24,7 +24,10 @@ function App() {
           element={<MediaStorageArchitecture />}
         />
 
-        <Route path="/work/:slug" element={<ProjectPage />} />
+        <Route 
+          path="/work/multimedia-internship" 
+          element={<MultimediaInternship />} />
+
       </Routes>
 
       <ScrollToTop />

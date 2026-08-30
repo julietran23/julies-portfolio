@@ -52,7 +52,7 @@ function Home() {
 
           <div className="project-grid">
             <a
-                href="/work/media-metadata"
+                href="/work/Digital-Asset-Management-Application"
                 className="project-card featured project-link"
             >
                 <div className="project-placeholder">
@@ -92,7 +92,7 @@ function Home() {
 
                 <div className="project-info">
                 <p className="project-number">
-                    02 / IT + SYSTEMS DESIGN
+                    02 / IT SOLUTIONS & SYSTEMS DESIGN
                 </p>
 
                 <h3>Media Storage Architecture & Taxonomy</h3>
@@ -111,6 +111,32 @@ function Home() {
                 </div>
             </a>
 
+<a
+                href="/work/Capstone-Project"
+                className="project-card project-link"
+            >
+                <div className="project-placeholder">
+                Architecture Diagram
+                </div>
+
+                <div className="project-info">
+                <p className="project-number">
+                    03 / IT SOLUTIONS + MOBILE DEVELOPMENT
+                </p>
+
+                <h3>George Mason University Capstone Project</h3>
+
+                <p>
+                    Developed a full-stack web application for managing and visualizing educational data.
+                </p>
+
+                <div className="tags">
+                    <span>UI/UX Design</span>
+                    <span>Figma</span>
+                    <span>Flutter</span>
+                </div>
+                </div>
+            </a>
 
             {/* PATRIOTHACKS */}
             <a
@@ -122,7 +148,7 @@ function Home() {
               </div>
 
               <div className="project-info">
-                <p className="project-number">03 / DESIGN + MARKETING</p>
+                <p className="project-number">04 / DESIGN + MARKETING</p>
 
                 <h3>PatriotHacks</h3>
 
@@ -134,24 +160,25 @@ function Home() {
                 <div className="tags">
                   <span>Graphic Design</span>
                   <span>Branding</span>
-                  <span>Social Media</span>
+                  <span>Digital Marketing</span>
+                  <span>Video Production</span>
                 </div>
               </div>
             </a>
 
-            {/* GRAPHIC DESIGN */}
+            {/* MULTIMEDIA INTERNSHIP */}
             <a
-              href="/work/graphic-design"
+              href="/work/multimedia-Internship"
               className="project-card project-link"
             >
               <div className="project-placeholder">
-                Graphic Design Work
+                Multimedia Work
               </div>
 
               <div className="project-info">
-                <p className="project-number">04 / VISUAL DESIGN</p>
+                <p className="project-number">05 / MULTIMEDIA</p>
 
-                <h3>Graphic Design</h3>
+                <h3>Multimedia Internship</h3>
 
                 <p>
                   Branded visual materials created for training, documentation,
@@ -160,8 +187,9 @@ function Home() {
 
                 <div className="tags">
                   <span>Adobe Creative Cloud</span>
-                  <span>Layout</span>
-                  <span>Typography</span>
+                  <span>Branding</span>
+                  <span>Graphic Design</span>
+                  <span>Video Production</span>
                 </div>
               </div>
             </a>

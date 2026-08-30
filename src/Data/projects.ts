@@ -134,10 +134,10 @@ export const projects: Project[] = [
   },
 
   {
-    slug: "graphic-design",
+    slug: "Multimedia-Internship",
     number: "04",
     category: "VISUAL DESIGN",
-    title: "Graphic Design",
+    title: "Multimedia Internship",
     summary:
       "A collection of branded graphics created for training materials, documentation, company events, and professional communication.",
     year: "2026",
@@ -150,9 +150,9 @@ export const projects: Project[] = [
 
     tools: [
       "Adobe Creative Cloud",
-      "Canva",
-      "Typography",
-      "Layout",
+      "Video Production",
+      "Branding",
+      "Graphic Design",
     ],
 
     overview:

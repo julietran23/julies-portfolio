@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 const roleGroups = [
   {
     title: "Frontend",
@@ -94,7 +93,7 @@ const roleGroups = [
   },
 ];
 
-function DAM() {
+function MultimediaInternship() {
   return (
     <main className="case-study">
       {/* =====================================================
@@ -108,16 +107,14 @@ function DAM() {
           </Link>
 
           <p className="case-eyebrow">
-            FULL-STACK DEVELOPMENT + UI/UX + MEDIA SYSTEMS
+            VIDEO PRODUCTION + GRAPHIC DESIGN + MARKETING
           </p>
 
-          <h1>Digital Asset Management Application</h1>
+          <h1>Multimedia Internship</h1>
 
           <p className="case-lead">
-            I designed, developed, and deployed an internal media-management
-            platform that indexes shared video storage and turns it into a
-            searchable library using metadata, taxonomy filters, tags,
-            thumbnails, and timestamp-level markers.
+            I produced a marketing video for SimVentions from pre to post-production, including storyboarding, filming, editing, and motion graphics.
+            I also worked supported the team through graphic design and brand identity.
           </p>
 
           <div className="case-meta-grid">
@@ -128,35 +125,26 @@ function DAM() {
 
             <div>
               <span>ROLE</span>
-              <p>Full-Stack Developer</p>
-              <p>UI/UX Designer</p>
-              <p>System Designer</p>
+              <p>Multimedia Specialist</p>
+              <p>Video Producer</p>
+              <p>Graphic Designer</p>
             </div>
 
             <div>
-              <span>ENVIRONMENT</span>
-              <p>Private Local Network</p>
-              <p>Multi-Computer Access</p>
+              <span>TOOLS</span>
+              <p>Adobe Creative Suite</p>
+              <p>Figma</p>
             </div>
 
-            <div>
-              <span>STATUS</span>
-              <p>Deployed & In Use</p>
-            </div>
           </div>
 
           <div className="case-tech-list">
-            <span>React</span>
-            <span>TypeScript</span>
-            <span>Vite</span>
-            <span>Node.js</span>
-            <span>Express</span>
-            <span>Prisma</span>
-            <span>PostgreSQL</span>
-            <span>Docker</span>
-            <span>FFmpeg</span>
-            <span>FFprobe</span>
-            <span>Chokidar</span>
+            <span>Figma</span>
+            <span>Adobe Premiere Pro</span>
+            <span>Adobe After Effects</span>
+            <span>Adobe Illustrator</span>
+            <span>Adobe Photoshop</span>
+            <span>Adobe Lightroom</span>
           </div>
         </div>
       </section>
@@ -165,10 +153,7 @@ function DAM() {
 
       <section className="case-container">
         <div className="case-large-placeholder">
-          <p>APPLICATION SCREENSHOT COMING SOON</p>
-          <span>
-            Video library / folder browser / search / filters / playback
-          </span>
+          <p>INSERT INTERNSHIP VIDEO HERE</p>
         </div>
       </section>
 
@@ -179,7 +164,7 @@ function DAM() {
       <section className="case-container case-section">
         <div className="case-section-label">
           <span>01</span>
-          <p>CONTEXT</p>
+          <p>INTERNSHIP MARKETING VIDEO</p>
         </div>
 
         <div className="case-section-content">
@@ -205,7 +190,7 @@ function DAM() {
             <div className="case-container case-section">
                 <div className="case-section-label">
                     <span>02</span>
-                    <p>THE PROBLEM</p>
+                    <p>GRAPHIC DESIGN</p>
                 </div>
 
                 <div className="case-section-content">
@@ -262,7 +247,7 @@ function DAM() {
         <div className="case-container case-section case-section-dark">
           <div className="case-section-label">
             <span>03</span>
-            <p>SOLUTION</p>
+            <p>BRAND IDENTITY</p>
           </div>
 
           <div className="case-section-content">
@@ -336,252 +321,12 @@ function DAM() {
       </section>
 
       {/* =====================================================
-          FRONTEND
-      ===================================================== */}
-
-      <section className="case-container case-section">
-        <div className="case-section-label">
-          <span>04</span>
-          <p>USER EXPERIENCE</p>
-        </div>
-
-        <div className="case-section-content">
-          <h2>Two main workflows: discover footage and inspect footage</h2>
-
-          <div className="case-card-grid">
-            <article className="case-info-card">
-              <span>VIDEO LIBRARY</span>
-              <h3>Search & browse</h3>
-              <p>
-                The main library displays indexed videos with thumbnails,
-                titles, file information, taxonomy filters, keyword tags, and other
-                searchable metadata.
-              </p>
-            </article>
-
-            <article className="case-info-card">
-                <span>PLAYBACK PAGE</span>
-                
-                <h3>Preview & annotate</h3>
-                <p>
-                    Users can preview footage, inspect technical metadata, copy the
-                    original source path, and create keyword tags or timestamp-specific
-                    markers. Timestamp markers can include notes and a thumbnail captured
-                    from that exact moment.
-                </p>
-            </article>
-          </div>
-
-          <div className="case-large-placeholder">
-            <p>UI SCREENSHOTS COMING SOON</p>
-            <span>
-              Folder hierarchy + library table + video detail / playback view
-            </span>
-          </div>
-        </div>
-      </section>
-
-      {/* =====================================================
-          SEARCH
-      ===================================================== */}
-
-      <section className="case-soft-section">
-        <div className="case-container case-section">
-          <div className="case-section-label">
-            <span>05</span>
-            <p>SEARCH</p>
-          </div>
-
-          <div className="case-section-content">
-            <h2>Search beyond filenames</h2>
-
-            <p>
-                Search combines technical metadata with information added by users,
-                matching titles, filenames, file paths, extracted metadata, keyword
-                tags, and timestamp labels even when users do not know where the
-                original asset is stored.
-            </p>
-
-            <h3 className="case-subheading">Shared taxonomy filters</h3>
-
-            <p>
-              Filter categories are stored centrally so users see consistent
-              options across different computers.
-            </p>
-
-            <div className="case-card-grid">
-              <article className="case-info-card">
-                <h3>Event</h3>
-                <p>Filter footage based on the event or production context.</p>
-              </article>
-
-              <article className="case-info-card">
-                <h3>Status</h3>
-                <p>Distinguish raw, draft, and finalized media.</p>
-              </article>
-
-              <article className="case-info-card">
-                <h3>Camera</h3>
-                <p>Filter footage by the camera or capture source.</p>
-              </article>
-
-              <article className="case-info-card">
-                <h3>Equipment</h3>
-                <p>
-                  Narrow results based on relevant equipment or technology.
-                </p>
-              </article>
-
-              <article className="case-info-card">
-                <h3>Company</h3>
-                <p>Organize footage using relevant organization metadata.</p>
-              </article>
-
-              <article className="case-info-card">
-                <h3>Production Day</h3>
-                <p>Filter footage using the team's production-day taxonomy.</p>
-              </article>
-            </div>
-
-            <p className="case-note">
-                More descriptive concepts such as capabilities are handled as
-                searchable tags or timestamp markers rather than rigid filter
-                categories.
-            </p>
-          </div>
-        </div>
-      </section>
-
-
-      {/* =====================================================
-          WHY NO VIDEO DATABASE STORAGE
-      ===================================================== */}
-
-        <section className="case-dark-section">
-            <div className="case-container case-section case-section-dark">
-                <div className="case-section-label">
-                    <span>07</span>
-                    <p>DATA ARCHITECTURE</p>
-                </div>
-
-                <div className="case-section-content">
-                    <h2>The database indexes the videos. It does not contain them.</h2>
-
-                    <p>
-                        Video files are large and were already stored in the shared media
-                        environment. Uploading another copy of each file into PostgreSQL
-                        would waste storage, duplicate assets, and unnecessarily increase
-                        database workload.
-                    </p>
-
-                    <div className="storage-comparison">
-                        <div className="storage-column">
-                        <p className="storage-heading">SHARED FILE STORAGE</p>
-
-                            <div className="storage-box">
-                                <p>Original video files</p>
-                                <p>Raw media</p>
-                                <p>Edited media</p>
-                                <p>Existing production assets</p>
-                            </div>
-                        </div>
-
-                        <div className="storage-link-arrow">→</div>
-
-                        <div className="storage-column">
-                        <p className="storage-heading">POSTGRESQL INDEX</p>
-
-                            <div className="storage-box">
-                                <p>File paths</p>
-                                <p>Metadata</p>
-                                <p>Taxonomy</p>
-                                <p>Tags</p>
-                                <p>Markers</p>
-                                <p>Thumbnail references</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-      
-      {/* =====================================================
-          SYNC ARCHITECTURE
-      ===================================================== */}
-
-      <section className="case-soft-section">
-        <div className="case-container case-section">
-          <div className="case-section-label">
-            <span>08</span>
-            <p>SYNC ARCHITECTURE</p>
-          </div>
-
-          <div className="case-section-content">
-            <h2>Keeping the database synchronized with files on disk</h2>
-
-            <p>
-                Because users can add, rename, move, archive, or remove media directly
-                from shared storage, the database needs to stay synchronized with
-                changes that happen outside the application.
-            </p>
-
-            <p>
-                I separated change detection from scheduling so the system can run
-                lightweight synchronization at startup, periodically, manually, or in
-                response to file-system activity without repeatedly performing a full
-                metadata scan.
-            </p>
-
-            <div className="case-card-grid">
-              <article className="case-info-card">
-                <span>WORKER</span>
-                <h3>Smart Scanner</h3>
-                <p>
-                  Answers the question: what changed on disk compared with the
-                  database?
-                </p>
-              </article>
-
-              <article className="case-info-card">
-                <span>MANAGER</span>
-                <h3>Sync Scheduler</h3>
-                <p>
-                  Controls when Smart Sync runs, including startup, periodic,
-                  and manual synchronization.
-                </p>
-              </article>
-
-              <article className="case-info-card">
-                <span>OPTIONAL SENSOR</span>
-                <h3>File Watcher</h3>
-                <p>
-                  Chokidar can detect filesystem activity and request an earlier
-                  Smart Sync rather than owning the synchronization logic.
-                </p>
-              </article>
-
-              <article className="case-info-card">
-                <span>CONTROL LAYER</span>
-                <h3>Scanner API Routes</h3>
-                <p>
-                  Connect frontend actions and status indicators to the scanner
-                  and synchronization services.
-                </p>
-              </article>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-
-      {/* =====================================================
           MY ROLE
       ===================================================== */}
 
       <section className="case-container case-section">
         <div className="case-section-label">
-          <span>09</span>
+          <span>04</span>
           <p>MY ROLE</p>
         </div>
 
@@ -626,7 +371,7 @@ function DAM() {
       <section className="case-dark-section">
         <div className="case-container case-section case-section-dark">
           <div className="case-section-label">
-            <span>10</span>
+            <span>05</span>
             <p>OUTCOME</p>
           </div>
 
@@ -682,14 +427,28 @@ function DAM() {
 
       <section className="related-case-study">
         <div className="case-container">
-          <p>RELATED CASE STUDY</p>
+          <p>MORE PROJECTS DURING MY INTERNSHIP</p>
 
           <Link to="/work/media-storage-architecture">
             <span>IT + SYSTEMS DESIGN</span>
 
             <h2>Media Storage Architecture & Taxonomy</h2>
 
-            <strong>View the infrastructure project →</strong>
+            <strong>View the infrastructure project →</strong> 
+
+            <p>
+              <br>
+              </br>
+            </p>
+
+          </Link>
+
+                    <Link to="/work/Digital-Asset-Management-Application">
+            <span>FULL STACK DEVELOPMENT + MEDIA SYSTEMS</span>
+
+            <h2>Digital Asset Management Application</h2>
+
+            <strong>View the software development project →</strong>
           </Link>
         </div>
       </section>
@@ -697,4 +456,4 @@ function DAM() {
   );
 }
 
-export default DAM;
+export default MultimediaInternship;
